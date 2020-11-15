@@ -33,10 +33,13 @@ function App() {
         style={{ transform: props.xys.interpolate(trans) }}
       >
         <a href="https://github.com/tof-tof"> <img className="pad-out" src="../github.png" alt="github" /> </a>
-        <a href= "https://www.linkedin.com/in/tofunmi-adigun-hameed/"><img className="pad-out" src="../linkedin.png" alt="linkedIn" /></a>
+        <a href="https://www.linkedin.com/in/tofunmi-adigun-hameed/" ><img className="pad-out" src="../linkedin.png" alt="linkedIn" /></a>
         <a href="" ><img className="pad-out" src="../profile.png" alt="cv" /></a>
       </animated.div>
-      <Hover />
+      <Hover href={"https://github.com/tof-tof"} src={"../github.png"} alt={"github"} />
+      <Hover href={"https://www.linkedin.com/in/tofunmi-adigun-hameed/"} src={"../linkedin.png"} alt={"linkedIn"} />
+      <Hover href={""} src={"../profile.png"} alt={"cv"} />
+      
     </div>
   );
 }
