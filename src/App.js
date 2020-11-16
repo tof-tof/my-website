@@ -19,7 +19,7 @@ function App() {
       <div>
         <img className="round-img" src="../tof.jpg" alt=" Tofunmi Adigun-Hameed" />
       </div>
-      <animated.h1 style={headerProps}>hello!</animated.h1>
+      <animated.h1 style={headerProps}>Hello!</animated.h1>
       <h3>I'm Tofunmi Adigun-Hameed (aka Tof), an I'm an aspiring <i>Software Engineer</i> &#128522;</h3>
       <p className="space-after">
         I'm currently studying Mathematics and Computer Science at the University of Oxford and I love learning about and working with new technologies.
