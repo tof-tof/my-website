@@ -2,6 +2,7 @@ import './App.css';
 import { useSpring, animated } from 'react-spring';
 import Hover from './Hover';
 import Goo from './Blob';
+import Pdf from './Adigun-Hameed_T.pdf' 
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
       <div className="no-line-break pad-out"></div>
       <Hover href={"https://www.linkedin.com/in/tofunmi-adigun-hameed/"} src={"../linkedin.png"} alt={"linkedIn"} />
       <div className="no-line-break pad-out"></div>
-      <Hover href={""} src={"../profile.png"} alt={"cv"} />
+      <Hover href={Pdf} target ={"_blank"} src={"../profile.png"} alt={"cv"} />
     </div>
   );
 }

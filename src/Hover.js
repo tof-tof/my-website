@@ -13,7 +13,7 @@ export default function Hover(props) {
       onMouseLeave={() => set({ xys: [0, 0, 1] })}
       style={{ transform: aProps.xys.interpolate(trans) }}
       >
-        <a href={props.href}> <img className="pad-out" src={props.src} alt={props.alt} /> </a>
+        <a href={props.href} target={props.target}> <img className="pad-out" src={props.src} alt={props.alt} /> </a>
       </animated.div>
   )
 }
