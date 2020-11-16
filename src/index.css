@@ -62,8 +62,8 @@ p {
   margin: 0.5rem 1rem;
 }
 
-.space-out{
-  padding-top: 30px;
+.space-after{
+  padding-bottom: 30px;
 }
 
 .pad-out{
@@ -86,13 +86,14 @@ p {
   border: 15px solid white;
 }
 
-.git-hub {
+.icon-card {
   width: 60px;
   height: 60px;
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s;
   will-change: transform;
+  display: inline-flex;
 }
-.no-space-sideways {
-  display: inline;
+.no-line-break {
+  display: inline-flex;
 }

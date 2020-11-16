@@ -8,7 +8,7 @@ export default function Hover(props) {
   const [aProps, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
   return (
       <animated.div
-      className="git-hub"
+      className="icon-card"
       onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
       onMouseLeave={() => set({ xys: [0, 0, 1] })}
       style={{ transform: aProps.xys.interpolate(trans) }}
