@@ -1,7 +1,6 @@
 import './App.css';
 import { useSpring, animated } from 'react-spring';
 import Hover from './Hover';
-import Background from './BackgroundAmination'
 import Goo from './Blob';
 
 
@@ -16,7 +15,7 @@ function App() {
   
   return (
     <div>
-      <Goo />
+      <Goo/>
       <div>
         <img className="round-img" src="../tof.jpg" alt=" Tofunmi Adigun-Hameed" />
         
