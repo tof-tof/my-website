@@ -16,11 +16,12 @@ function App() {
   
   return (
     <div>
-      <Particles
-        style={{
-          position: "fixed",
+      <div className="no-line-break particles">
+        <Particles style={{
+          position: "absolute",
           top: 0,
-          left: 0}}
+          left: 0,
+        }}
         height="70%"
         width="37%"
         params={{
@@ -42,32 +43,36 @@ function App() {
           }
         }}
       />
-      <Particles
-        style={{
-          position: "fixed",
-          top: 0,
-          right: 0}}
-        height="70%"
-        width="37%"
-        params={{
-          particles: {
-            color: {
-              value: "#000000"
-            },
-            line_linked: {
+      </div>
+      <div className="no-line-break ">
+        <Particles 
+          style={{
+            position: "absolute",
+            top: 0,
+            right: 0}}
+          height="70%"
+          width="37%"
+          params={{
+            particles: {
               color: {
                 value: "#000000"
+              },
+              line_linked: {
+                color: {
+                  value: "#000000"
+                }
+              },
+              number: {
+                value: 50
+              },
+              size: {
+                value: 3
               }
-            },
-            number: {
-              value: 50
-            },
-            size: {
-              value: 3
             }
-          }
-        }}
-    />
+          }}
+        />
+      </div>
+      
     <div>
     <img className="round-img" src="../tof.jpg" alt=" Tofunmi Adigun-Hameed" />
     </div>

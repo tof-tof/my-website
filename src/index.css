@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway&display=swap');
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
   color: black;
   font-family: 'Lato', sans-serif;
   display: flex;
-  /* align-items: center; */
   text-align: center;
   min-height: 100vh;
   padding: 2rem;
@@ -19,12 +16,22 @@ body {
 }
 
 
+
 #root {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
   background-color: white;
+}
+
+
+@media (max-width: 750px){
+  canvas {
+    position : absolute; 
+    width:100%;
+    height:100%; 
+    z-index:-1;
+  }
 }
 
 
@@ -35,13 +42,14 @@ h1 {
 }
  
 img{
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 h3 {
   padding: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
+  font-size: 23px;
 }
 h5 {
   padding: 1rem;
@@ -51,6 +59,7 @@ h5 {
 .round-img{
   border-radius: 50%;
   border: 5px solid whitesmoke;
+  z-index: 1;
 }
 
 p {
@@ -60,6 +69,7 @@ p {
   max-width: 800px;
   padding-bottom: 5px;
   font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 
 }
 
@@ -99,3 +109,4 @@ p {
 .no-line-break {
   display: inline-flex;
 }
+
