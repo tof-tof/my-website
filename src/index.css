@@ -15,14 +15,16 @@ body {
   padding: 2rem;
   margin: 0;
   padding: 0;
+  
 }
+
 
 #root {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 
@@ -48,7 +50,7 @@ h5 {
 
 .round-img{
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid whitesmoke;
 }
 
 p {
@@ -96,22 +98,4 @@ p {
 }
 .no-line-break {
   display: inline-flex;
-}
-.animation_background {
-  background-color: whitesmoke;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0; 
-}
-#particles-js {
-  background-color: whitesmoke;
-  position: absolute;
-  z-index: 50;
-  width: 100%;
-  height: 100%;
-  top: 0;
 }
