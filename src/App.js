@@ -1,6 +1,6 @@
 import { useSpring, animated } from 'react-spring';
 import Hover from './AnimatedPic';
-//import Goo from './Blob';
+import Goo from './Blob';
 import Pdf from './assets/Adigun-Hameed_T.pdf';
 import Particles from 'react-particles-js';
 
@@ -16,7 +16,7 @@ function App() {
   
   return (
     <div>
-      <div className="no-line-break particles">
+      <div className="no-line-break">
         <Particles style={{
           position: "absolute",
           top: 0,
@@ -44,7 +44,7 @@ function App() {
         }}
       />
       </div>
-      <div className="no-line-break ">
+      <div className="no-line-break">
         <Particles 
           style={{
             position: "absolute",
@@ -72,7 +72,7 @@ function App() {
           }}
         />
       </div>
-      
+    
     <div>
     <img className="round-img" src="../tof.jpg" alt=" Tofunmi Adigun-Hameed" />
     </div>
