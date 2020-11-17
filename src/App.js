@@ -72,7 +72,6 @@ function App() {
           }}
         />
       </div>
-    
     <div>
     <img className="round-img" src="../tof.jpg" alt=" Tofunmi Adigun-Hameed" />
     </div>
