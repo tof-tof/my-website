@@ -1,6 +1,7 @@
 import { useSpring, animated } from 'react-spring';
 import Hover from './AnimatedPic';
-import Goo from './Blob';
+// eslint-disable-next-line
+import Goo from './Blob'; 
 import Pdf from './assets/Adigun-Hameed_T.pdf';
 import Particles from 'react-particles-js';
 
