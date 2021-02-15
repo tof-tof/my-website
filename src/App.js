@@ -1,9 +1,8 @@
 import { useSpring, animated } from 'react-spring';
-import Hover from './AnimatedPic';
 // eslint-disable-next-line
 import Goo from './Blob'; 
-import Pdf from './assets/Adigun-Hameed_T.pdf';
 import Particles from 'react-particles-js';
+import HoverSocialMedia from './HoverSocialMedia';
 
 
 
@@ -82,11 +81,8 @@ function App() {
       I'm currently studying Mathematics and Computer Science at the University of Oxford and I love learning about and working with new technologies.
       My other passions include outreach and Zumba.
     </p>
-    <Hover href={"https://github.com/tof-tof"} src={"../github.png"} alt={"github"} />
-    <div className="no-line-break pad-out"></div>
-    <Hover href={"https://www.linkedin.com/in/tofunmi-adigun-hameed/"} src={"../linkedin.png"} alt={"linkedIn"} />
-    <div className="no-line-break pad-out"></div>
-    <Hover href={Pdf} target={"_blank"} src={"../profile.png"} alt={"cv"} /> 
+    <HoverSocialMedia />
+    
   </div>
   );
 }
