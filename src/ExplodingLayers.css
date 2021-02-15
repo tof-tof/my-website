@@ -12,6 +12,8 @@ body{
  ul {
    position: relative;
    display: flex;
+   align-items: center;
+   justify-content: center;
    transform-style: preserve-3d;
 }
 ul li {

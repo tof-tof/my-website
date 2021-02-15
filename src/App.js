@@ -3,6 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import Goo from './Blob'; 
 import Particles from 'react-particles-js';
 import HoverSocialMedia from './HoverSocialMedia';
+import ExplodingLayers from './ExplodingLayers';
 
 
 
@@ -81,7 +82,7 @@ function App() {
       I'm currently studying Mathematics and Computer Science at the University of Oxford and I love learning about and working with new technologies.
       My other passions include outreach and Zumba.
     </p>
-    <HoverSocialMedia />
+    <ExplodingLayers />
     
   </div>
   );
