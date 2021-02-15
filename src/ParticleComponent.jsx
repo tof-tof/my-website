@@ -4,7 +4,7 @@ import Particles from "react-particles-js";
 
 export default () => (
   <div style={{
-    position: "absolute",
+    position: "fixed",
     top: 0,
     left: 0,
     zIndex: -10,
@@ -15,7 +15,7 @@ export default () => (
       params={{
         particles: {
           number: {
-            value: 100,
+            value: 150,
             density: {
               enable: true,
               value_area: 1803.4120608655228
@@ -28,7 +28,7 @@ export default () => (
             type: "square",
             stroke: {
               width: 4,
-              color: "#000000"
+              color: "#fcf9f9"
             },
             polygon: {
               nb_sides: 4
