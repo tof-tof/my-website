@@ -15,19 +15,19 @@ export default () => (
       params={{
         particles: {
           number: {
-            value: 150,
+            value: 100,
             density: {
               enable: true,
               value_area: 1803.4120608655228
             }
           },
           color: {
-            value: "#000000"
+            value: "#07045f"
           },
           shape: {
             type: "square",
             stroke: {
-              width: 4,
+              width: 10,
               color: "#fcf9f9"
             },
             polygon: {
@@ -35,30 +35,30 @@ export default () => (
             },
           },
           opacity: {
-            value: 0.4008530152163807,
+            value: 0.6008530152163807,
             random: false,
             anim: {
               enable: false,
               speed: 1,
-              opacity_min: 0.1,
+              opacity_min: 0.2,
               sync: false
             }
           },
           size: {
-            value: 1.5,
+            value: 4,
             random: true,
             anim: {
               enable: false,
               speed: 40 ,
-              size_min: 0.1,
+              size_min: 1,
               sync: false
             }
           },
           line_linked: {
             enable: true,
-            color: "#000000",
-            opacity: 0.3687847739990702,
-            width: 0.6413648243462091
+            color: "#07045f",
+            opacity: 0.4687847739990702,
+            width: 0.2
           },
           move: {
             enable: true,
@@ -67,7 +67,7 @@ export default () => (
             random: false,
             straight: false,
             out_mode: "out",
-            bounce: false,
+            bounce: true,
             attract: {
               enable: false,
               rotateX: 600,
